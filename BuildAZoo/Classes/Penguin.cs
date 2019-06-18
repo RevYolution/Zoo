@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Mammal : Animal, IRun
+    class Penguin : Bird, ISwim
     {
     }
 }
