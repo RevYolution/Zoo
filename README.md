@@ -12,7 +12,7 @@ Planning out the hierarchaical class structure of a Zoo.
 
 ------------------------------
 ##Diagram
-![Drawing](Assets/ZooDiagram.jpg)
+![Drawing]https://github.com/RevYolution/Zoo/blob/master/assets/ZooDiagramLab5.PNG
 
 
 
