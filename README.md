@@ -12,6 +12,7 @@ Planning out the hierarchaical class structure of a Zoo.
 
 ------------------------------
 ##Diagram
+![Drawing](Assets/ZooDiagram.jpg)
 
 
 
