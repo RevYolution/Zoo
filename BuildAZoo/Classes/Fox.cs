@@ -4,7 +4,16 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Fox : Canine
+    public class Fox : Canine
     {
+        public override string Call()
+        {
+            return "I yip";
+        }
+
+        public override string Sleep()
+        {
+            return "I sleep in a den";
+        }
     }
 }

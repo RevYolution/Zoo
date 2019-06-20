@@ -5,7 +5,8 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Mammal : Animal, IRun
+    public abstract class Mammal : Animal, IRun
     {
+        public override bool Warmblooded { get; set; } = true;
     }
 }
