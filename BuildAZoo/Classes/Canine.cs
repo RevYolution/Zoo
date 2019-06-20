@@ -22,5 +22,8 @@ namespace BuildAZoo.Classes
         {
             return false;
         }
+
+        public override bool Strips { get; set; } = true;
+
     }
 }

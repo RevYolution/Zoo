@@ -10,7 +10,7 @@ namespace BuildAZoo.Classes
 
         public abstract bool Warmblooded { get; set; }
 
-        public bool Strips { get; set; }
+        public abstract bool Strips { get; set; }
 
         public abstract string Eat();
 
