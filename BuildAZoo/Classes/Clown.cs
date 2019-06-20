@@ -5,7 +5,8 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Clown : Fish, ISwim
+    public class Clown : Fish, ISwim
     {
+        public override bool Strips { get; set; }
     }
 }
