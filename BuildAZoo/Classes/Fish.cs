@@ -1,14 +1,17 @@
-﻿using System;
+﻿using BuildAZoo.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    public abstract class Fish :Animal
+    public abstract class Fish : Animal, ISwim
     {
         public override int Legs { get; set; } = 0;
 
         public override bool Warmblooded { get; set; } = false;
+        public int Depth { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Speed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public override string Eat()
         {
@@ -35,6 +38,14 @@ namespace BuildAZoo.Classes
             return "I sleep in the water";
         }
 
+        public void Dive()
+        {
+            throw new NotImplementedException();
+        }
 
+        public void Surface()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
