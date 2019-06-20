@@ -20,16 +20,16 @@ The Zoo contains an Animal class as the base and is broken down as follow:
 ### Interfaces
 
 ### Inheritance
-Classes have the ability to reuse properties and methods of other classes overriding their behivior.
+- Classes have the ability to reuse properties and methods of other classes overriding their behivior.
 
 ### Abstraction
-Showing only the required attributes of a calss and hiding the rest.
+- Showing only the required attributes of a calss and hiding the rest.
 
 ### Polymorphism
-The ability of objects of differing types to implement the same methods
+- The ability of objects of differing types to implement the same methods
 
 ### Encapsulation
-Encapsulation allows properties and methods to be consider a single entity or object.
+- Encapsulation allows properties and methods to be consider a single entity or object.
 ------------------------------
 ## Diagram
 ![Drawing](https://github.com/RevYolution/Zoo/blob/master/assets/ZooDiagramInterfaces.PNG)
