@@ -7,6 +7,9 @@ namespace BuildAZoo.Classes
 {
     public class Ostrich : Bird, IRun
     {
+        public int Speed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Distance { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public override string Eat()
         {
             return "I eat bugs";
@@ -25,6 +28,16 @@ namespace BuildAZoo.Classes
         public override bool Migrate()
         {
             return false;
+        }
+
+        public void Start()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Stop()
+        {
+            throw new NotImplementedException();
         }
     }
 }
